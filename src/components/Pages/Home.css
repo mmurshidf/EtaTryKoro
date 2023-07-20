@@ -94,3 +94,16 @@ h5{
     border-style: solid;
     transition: all 0.1s;
 }
+@media screen and (max-width: 960px) {
+    .h1{
+        font-size: 2.5rem;
+        margin-bottom: 5%;
+        padding-bottom: 2%;
+    }
+    .btns{
+        margin-top: 4%;
+    }
+    .p{
+        font-size: 1.2rem;
+    }
+}
