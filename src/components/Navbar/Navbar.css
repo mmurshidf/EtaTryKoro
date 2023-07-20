@@ -49,14 +49,14 @@
 .Nav-logo.active,.Nav-logo:hover{
     color: white;
     background-color: rgb(251,196,144,0.5);
-    border-radius: 5px;
-    transition: all 0.25s ease-out;
+    border-radius: 50%;
+    transition: all 0.20s ease-out;
 }
 .nav-links.active,.nav-links:hover{
     color: white;
     background-color: rgb(251,196,144,0.5);
-    border-radius: 5px;
-    transition: all 0.25s ease-out;
+    border-radius: 50%;
+    transition: all 0.20s ease-out;
 }
 .bars{
     display: none;

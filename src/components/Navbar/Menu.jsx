@@ -1,7 +1,7 @@
 export const Items = [
     {
         label: 'Post',
-        url: '#',
+        url: '/Categories',
         id: 'nav-links'
     },
     {

@@ -7,12 +7,12 @@
     margin: 6%;
     font-family: 'Mont';
 }
-h1{
+.h1{
     color: orange;
     border-bottom: 3px solid orange;
     font-size: 3rem;
 }
-p{
+.p{
     margin-top: 2%;
     font-size: 1.3rem;
     margin-left: 10%;
@@ -38,7 +38,7 @@ p{
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
 }
-h6{
+.h6{
     font-size: 1.3rem;
     color: orange;
     padding-bottom: 3%;
