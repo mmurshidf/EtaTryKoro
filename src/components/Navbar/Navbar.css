@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Mont';
+    src: url(../Navbar/Mont.otf);
+}
+.NavbarItems{
+    background: linear-gradient(to bottom right, #A82810 100%, #FBAA60 );
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mont';
+}
+.Nav-logo{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #d9d9d9;
+    margin-left: 5%;
+    margin-right: auto;
+    text-decoration: none;
+    justify-content: right;
+    padding: 0.8rem;
+}
+.nav-menu-bar{
+    display: inline-flex;
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #d9d9d9;
+    margin-right: 5%;
+    margin-left: auto;
+    text-decoration: none;
+}
+.nav-menu{
+    display: inline-flex;
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #d9d9d9;
+    margin-right: 5%;
+    margin-left: auto;
+    text-decoration: none;
+}
+.nav-links{
+    color: #d9d9d9;
+    text-decoration: none;
+    padding: 1.2rem;
+    box-shadow: #d9d9d9;
+}
+.Nav-logo.active,.Nav-logo:hover{
+    color: #A82810;
+    background-color: rgb(251,196,144,0.5);
+    border-radius: 5px;
+    transition: all 0.25s ease-out;
+}
+.nav-links.active,.nav-links:hover{
+    color: #A82810;
+    background-color: rgb(251,196,144,0.5);
+    border-radius: 5px;
+    transition: all 0.25s ease-out;
+}
+.bars{
+    display: none;
+}
+@media screen and (max-width: 960px) {
+    .bars{
+        display: contents;
+        display: inline-flex;
+        list-style: none;
+        font-size: 2rem;
+        font-weight: bold;
+        color: #d9d9d9;
+        margin-right: 5%;
+        margin-left: auto;
+        text-decoration: none;
+    }
+    .nav-menu{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #F67B50;
+        top: 90px;
+        left: -100%;
+        display: block;
+        transition: all .5s;
+    }
+    .nav-menu-bar{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #F67B50;
+        top: 90px;
+        left: 0%;
+        display: block;
+        transition: all .5s;
+        text-align: center;
+    }
+    .nav-links{
+        width: 100%;
+        text-decoration: none;
+        display: block;
+        color: #d9d9d9;
+        text-decoration: none;
+        box-shadow: #d9d9d9;
+        font-size: 1.5rem;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+    .nav-links.active,.nav-links:hover{
+        color: #A82810;
+        background-color: rgb(251,196,144,0.5);
+        border-radius: 5px;
+        transition: all 0.25s ease-out;
+    }
+}
