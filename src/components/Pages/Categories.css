@@ -1,3 +1,10 @@
-h1{
-    border-color: none;
+.h2{
+    border-bottom: 3px solid;
+    border-color: orange;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    font-size: 2rem;
+    color: orange;
+    -webkit-text-stroke: .5px black;
 }

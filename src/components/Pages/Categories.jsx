@@ -6,7 +6,9 @@ function Categories() {
   return (
     <>
         <Navbar />
-        <h1>Categories</h1>
+        <div className='Category'>
+            <h2 className='h2'>Categories</h2>
+        </div>
     </>
   )
 }
