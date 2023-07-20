@@ -7,7 +7,7 @@ function Home() {
     <>
         <Navbar />
         <div className='Text'>
-          <h1>"Try It, Love It, Share It: Your Moments, Your Voice!"</h1>
+          <h1>Try It, Love It, Share It: Your Moments, Your Voice!</h1>
           <p>A platform to post your exciting experiences for others to try! Post or find new activities to try.</p>
           <div className='Links'>
             <ul className="btn">
