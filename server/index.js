@@ -39,5 +39,5 @@ mongoose.connect("mongodb+srv://Faizan:nQMmTbhr9L8eM1VL@cluster0.jaadlpc.mongodb
     useNewUrlParser: true,
     useUnifiedTopology: true,
 }).then(() => {
-    app.listen(PORT, () => console.log('Server Port: ${PORT}'));
-}).catch((error) => console.log('${error} did not connect'));
+    app.listen(PORT, () => console.log(`Server Port: ${PORT}`));
+}).catch((error) => console.log(`${error} did not connect`));
