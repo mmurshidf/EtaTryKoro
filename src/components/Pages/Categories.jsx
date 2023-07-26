@@ -15,6 +15,7 @@ function Categories() {
             <Popup trigger={clickpop} Trigger={closepop}>
                 <div className='form'>
                   <h3 className='form-name'>Categories Form</h3>
+                  <h3>hi</h3>
                 </div>
             </Popup>
         </div>
