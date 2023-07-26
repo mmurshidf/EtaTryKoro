@@ -1,10 +1,45 @@
-.h2{
+@font-face {
+    font-family: 'Mont';
+    src: url(../Navbar/Mont.otf);
+}
+.Category{
     border-bottom: 3px solid;
     border-color: orange;
+    margin-top: 3%;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+.h2{
     font-size: 2rem;
     color: orange;
-    -webkit-text-stroke: .5px black;
+    margin-right: auto;
+    padding-top: 4px;
+}
+.add{
+    margin-left: auto;
+    background: rgb(255,165,0,0.5);
+    border: orange 2px solid;
+    border-radius: 10px;
+    color: white;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Mont';
+    margin-bottom: 2px;
+}
+.add:hover {
+    background: orange;
+    border-color: #FAF9F6;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.form{
+    border-bottom: 3px solid;
+    border-color: orange;
+}
+.form-name{
+    color: orange;
 }
