@@ -35,7 +35,7 @@ const upload = multer({ storage });
 
 
 const PORT = 5174 || 6001;
-mongoose.connect("mongodb+srv://Faizan:nQMmTbhr9L8eM1VL@cluster0.jaadlpc.mongodb.net/?retryWrites=true&w=majority", {
+mongoose.connect("mongodb+srv://Faizan:zZljh4PBhg3l7XkA@cluster0.7iyf0pe.mongodb.net/?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 }).then(() => {
