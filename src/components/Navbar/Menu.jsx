@@ -6,12 +6,12 @@ export const Items = [
     },
     {
         label: 'Steps',
-        url: '#',
+        url: '/Steps',
         id: 'nav-links'
     },
     {
         label: 'About Us',
-        url: '#',
+        url: '/AboutUs',
         id: 'nav-links'
     },
 ]

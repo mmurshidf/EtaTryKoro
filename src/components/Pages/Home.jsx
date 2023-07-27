@@ -12,7 +12,7 @@ function Home() {
           <div className='Links'>
             <ul className="btn">
               <li className='btns'>
-                <a className='btn1' href='/'>Steps</a>
+                <a className='btn1' href='/Steps'>Steps</a>
                 <h5 className='up'><i className='arup'></i></h5>
                 <h6 className='h6'>Go to Steps to learn more or Start Posting!</h6>
                 <h5 className='down'><i className='ardown'></i></h5>
