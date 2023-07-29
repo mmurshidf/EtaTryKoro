@@ -41,7 +41,7 @@ app.post("/cat_create/catadd", upload.single("picture"), catadd);
 
 app.use("/cat", catRoutes);
 
-const PORT = 5174 || 6001;
+const PORT = 3001 || 6001;
 mongoose.connect("mongodb+srv://Faizan:zZljh4PBhg3l7XkA@cluster0.7iyf0pe.mongodb.net/?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
