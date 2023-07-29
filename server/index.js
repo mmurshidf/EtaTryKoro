@@ -8,6 +8,10 @@ import helmet from "helmet";
 import morgan from "morgan";
 import path from "path";
 import { fileURLToPath } from "url";
+import catRoutes from "./routes/cat.js";
+import { catadd } from "./controllers/cat_create.js"
+import categories_data from "./models/categories_data.js"
+import { category } from "./data/index.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -33,6 +37,9 @@ const storage = multer.diskStorage({
 });
 const upload = multer({ storage });
 
+app.post("/cat_create/catadd", upload.single("picture"), catadd);
+
+app.use("/cat", catRoutes);
 
 const PORT = 5174 || 6001;
 mongoose.connect("mongodb+srv://Faizan:zZljh4PBhg3l7XkA@cluster0.7iyf0pe.mongodb.net/?retryWrites=true&w=majority", {
@@ -40,4 +47,7 @@ mongoose.connect("mongodb+srv://Faizan:zZljh4PBhg3l7XkA@cluster0.7iyf0pe.mongodb
     useUnifiedTopology: true,
 }).then(() => {
     app.listen(PORT, () => console.log(`Server Port: ${PORT}`));
+
+    // categories_data.insertMany(category);
+
 }).catch((error) => console.log(`${error} did not connect`));
