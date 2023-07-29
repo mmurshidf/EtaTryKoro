@@ -6,6 +6,8 @@ import { useState } from 'react'
 
 function Categories() {
   const [clickpop, closepop] = useState(false);
+
+
   return (
     <>
         <Navbar />

@@ -2,13 +2,14 @@ import mongoose from "mongoose";
 
 const catSchema = new mongoose.Schema(
     {
-        topic: {
+        name: {
             type: String,
             unique: true,
         }
-    },
-    { timestamps: true }
+    }
 );
+
+mongoose.pluralize(null);
 
 const categories_data = mongoose.model("categories_data", catSchema);
 
