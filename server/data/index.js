@@ -25,4 +25,9 @@ export const category = [
         name: "Conneticut",
         __v: 0,
     },
+    {
+        _id: categoryIds[4],
+        name: "Food",
+        __v: 0,
+    },
 ];
