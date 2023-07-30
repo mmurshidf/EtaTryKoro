@@ -20,4 +20,9 @@ export const category = [
         name: "New York",
         __v: 0,
     },
+    {
+        _id: categoryIds[3],
+        name: "Conneticut",
+        __v: 0,
+    },
 ];
